@@ -18,6 +18,7 @@ GENERAL STYLES
 *********************/
 
 body {
+	margin: 4%;
 	font-size: 85%;
 }
 
@@ -25,65 +26,59 @@ body {
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 760px;
-}
-
-#container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 /*********************
 HEADER STYLES
 *********************/
 
-.header {
+header {
+	overflow: auto;
 
-	#logo {
-		width: 33%;
+	.localisation-menu {
+		float:right;
+		margin-top: 4%;
+
+		ul {
+			text-align: right;
+		}
+		li {
+			display: inline;
+
+		}
+		img {
+			width: 1.5em;
+		}
+			
+	}
+
+	.logo {
 		float: left;
-	}
-
-	#inner-header {
-		width: 100%;
-	}
-
-	#search {
 		width: 33%;
-		margin: auto;
+	}
+
+	.search-form {
 		float: left;
-	}
-
-	#header-sc {
-		width: 20%;
-		float: right;
-	}
-
-	button {
-		background-color: $button-inner;
+		width: 36%;
+		margin-top: 4%;
 		border: 1px solid;
-		border-radius: 5%;
-		padding: 0% 15% 0% 15%;
-		color: $white;
-		text-align: center;
-		height: 4em;
-		float: right;
+		border-radius: 1em;
 
-		a {
-			color: $white;
-			text-decoration: none;
+		i {
+			margin-left: 1em;
 		}
 	}
+
 }
+
 /*********************
 NAVIGATION STYLES
 *********************/
-
+nav {
+	clear: both;
+}
 .nav {
 	border: 0;
-	background-color: $nakiche-red;
+	background-color: $collectable-red;
 	clear: both;
 	ul {
 		margin-top:0;

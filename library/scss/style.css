@@ -854,8 +854,8 @@ I mean, you can do whatever you want. The world is your oyster. Unless
 you hate oysters, then the world is your peanut butter & jelly sandwich.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Collectable  
+Author: Alexander Rokven
 
 Stylesheet: Alert Styles
 
@@ -885,9 +885,8 @@ you can just remove this stylesheet.
   background: #e6efc2; }
 
 /******************************************************************
-Site Name:
-Author:
-
+Site Name: Collectable  
+Author: Alexander Rokven
 Stylesheet: Button Styles
 
 Buttons are a pretty important part of your site's style, so it's
@@ -944,8 +943,8 @@ and it will create a button dependant on those variables.
     background-color: #2472a4; }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Collectable  
+Author: Alexander Rokven
 
 Stylesheet: Form Styles
 
@@ -1239,7 +1238,7 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name: Nakiche Koi
+Site Name: Collectable
 Author: Alexander Rokven
 
 Stylesheet: Base Mobile Stylesheet
@@ -1370,21 +1369,6 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  margin-top: 1%; }
-  .header #nakichekoi_logo {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%; }
-  .header #header_menu_items {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; }
-  .header #search {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto; }
-
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1398,7 +1382,7 @@ and more scalable.
 .nav {
   border-bottom: 0;
   margin: 0;
-  background: #69090b;
+  background: #323944;
   border: 1px solid;
   border-color: #1f90bb #1f90bb #145e7a;
   border-radius: 5px;
@@ -1851,8 +1835,8 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Collectable	
+  Author: Alexander Rokven
   
   Stylesheet: 481px and Up Stylesheet
   
@@ -1962,48 +1946,6 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
-  .header #nakichekoi_logo {
-    width: 50%;
-    margin: auto; }
-  .header #logo {
-    width: 33%;
-    float: left; }
-  .header #inner-header {
-    width: 100%; }
-  .header #search {
-    width: 33%;
-    margin: auto;
-    float: left; }
-  .header #header-sc {
-    width: 20%;
-    float: right; }
-  .header button {
-    background-color: #333;
-    border: 1px solid;
-    border-radius: 5%;
-    padding: 0% 15% 0% 15%;
-    color: #fff;
-    text-align: center;
-    height: 4em;
-    float: right; }
-    .header button a {
-      color: #fff;
-      text-decoration: none; }
-
-  .header-info-details {
-    background-color: #eeeeee;
-    text-align: right;
-    padding: 0.5em 0em;
-    border-bottom: 1px solid #e2e2e2; }
-    .header-info-details .menu-item {
-      display: inline-block; }
-    .header-info-details a {
-      color: #888;
-      text-decoration: none; }
-    .header-info-details svg {
-      margin-right: 0.3em;
-      margin-left: 1.5em; }
-
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2112,24 +2054,7 @@ you can add resource intensive styles.
     width: 25%; }
   footer .copyright {
     clear: both;
-    margin: 0; }
-
-  /*********************
-  WOOCOMMERCE STYLES
-  *********************/
-  /*
-  PAY ATTENTION! This is only for the common woocommerce styles. So for mobile
-  and for desktop. Otherwise please refer to the proper style file.
-  
-  .product-block-25{
-  	width: 24%;
-  	display: inline-block;
-  	border: 1px solid $light-gray;
-  	float: left;
-  }
-  */
-  .product_list_widget li {
-    width: 24.7%; } }
+    margin: 0; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
@@ -2138,8 +2063,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: Collectable	
+  Author: Alexander Rokven
   
   Stylesheet: Desktop Stylsheet
   
@@ -2155,8 +2080,8 @@ This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: Collectable	
+  Author: Alexander Rokven
   
   Stylesheet: Super Large Monitor Stylesheet
   
@@ -2172,8 +2097,8 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: Collectable	
+  Author: Alexander Rokven
   
   Stylesheet: Retina Screens & Devices Stylesheet
   
@@ -2278,5 +2203,3 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-
-/*# sourceMappingURL=style.css.map */

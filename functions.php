@@ -44,7 +44,8 @@ if ( ! function_exists( 'collectable_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'collectable' ),
+			'primary_menu' => esc_html__( 'Primary', 'collectable' ),
+			'localisation_menu' => esc_html__('Localisation', 'collectable'),
 		) );
 
 		/*
@@ -82,6 +83,7 @@ if ( ! function_exists( 'collectable_setup' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'collectable_setup' );
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.

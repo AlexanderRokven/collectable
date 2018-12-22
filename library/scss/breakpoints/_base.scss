@@ -158,21 +158,9 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {
-	margin-top: 1%;
-
-	#header_menu_items {
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-	#search {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+header {
 }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -892,7 +880,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $nakiche-red;
+	background-color: $collectable-red;
 	color: $light-gray;
 
 	a {
