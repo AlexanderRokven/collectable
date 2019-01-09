@@ -114,6 +114,42 @@ function collectable_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
+	));
+	register_sidebar( array(
+		'name'			=> esc_html__('Footer Block 1', 'collectable'),
+		'id'			=> 'footer-1',
+		'description'	=> esc_html__('Voeg widgets toe.', 'collectable'),
+		'before_widget' => '<section id="%1$s" class="widget %2$s footer-block">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'			=> esc_html__('Footer Block 2', 'collectable'),
+		'id'			=> 'footer-2',
+		'description'	=> esc_html__('Voeg widgets toe.', 'collectable'),
+		'before_widget' => '<section id="%1$s" class="widget %2$s footer-block">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'			=> esc_html__('Footer Block 3', 'collectable'),
+		'id'			=> 'footer-3',
+		'description'	=> esc_html__('Voeg widgets toe.', 'collectable'),
+		'before_widget' => '<section id="%1$s" class="widget %2$s footer-block">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'			=> esc_html__('Footer Block 4', 'collectable'),
+		'id'			=> 'footer-4',
+		'description'	=> esc_html__('Voeg widgets toe.', 'collectable'),
+		'before_widget' => '<section id="%1$s" class="widget %2$s footer-block">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 }
 add_action( 'widgets_init', 'collectable_widgets_init' );

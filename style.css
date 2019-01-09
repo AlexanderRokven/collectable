@@ -1926,8 +1926,9 @@ you can add resource intensive styles.
   GENERAL STYLES
   *********************/
   body {
-    margin: 4%;
     font-size: 85%; }
+    body .site {
+      margin: 4%; }
 
   /*********************
   LAYOUT & GRID STYLES
@@ -1963,6 +1964,9 @@ you can add resource intensive styles.
   *********************/
   nav {
     clear: both; }
+    nav a {
+      text-decoration: none;
+      font-weight: bold; }
 
   .nav {
     border: 0;
@@ -2065,11 +2069,16 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  footer .footer-item {
-    width: 25%; }
-  footer .copyright {
-    clear: both;
-    margin: 0; } }
+  footer .footer-block {
+    width: 25%;
+    display: inline-block; }
+
+  .colophon {
+    background-color: #323944;
+    color: #fff;
+    padding-left: 4%; }
+    .colophon a {
+      color: #fff; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

@@ -18,8 +18,12 @@ GENERAL STYLES
 *********************/
 
 body {
-	margin: 4%;
+	
 	font-size: 85%;
+
+	.site {
+		margin: $content-margin;
+	}
 }
 
 /*********************
@@ -75,6 +79,12 @@ NAVIGATION STYLES
 *********************/
 nav {
 	clear: both;
+	
+	a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+
 }
 .nav {
 	border: 0;
@@ -310,16 +320,20 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+
 footer {
-
-	.footer-item {
-		width:25%;
+	.footer-block{
+		width: 25%;
+		display: inline-block;
 	}
-
-	.copyright	{
-		clear: both;
-		margin:0;
-	}
-
 }
 
+.colophon {
+	background-color: $black;
+	color: $white;
+	padding-left: $content-margin;
+	a {
+		
+		color: $white;
+	}
+}

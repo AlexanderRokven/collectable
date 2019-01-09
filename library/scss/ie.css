@@ -254,8 +254,9 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 body {
-  margin: 4%;
   font-size: 85%; }
+  body .site {
+    margin: 4%; }
 
 /*********************
 LAYOUT & GRID STYLES
@@ -291,6 +292,9 @@ NAVIGATION STYLES
 *********************/
 nav {
   clear: both; }
+  nav a {
+    text-decoration: none;
+    font-weight: bold; }
 
 .nav {
   border: 0;
@@ -393,11 +397,16 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-footer .footer-item {
-  width: 25%; }
-footer .copyright {
-  clear: both;
-  margin: 0; }
+footer .footer-block {
+  width: 25%;
+  display: inline-block; }
+
+.colophon {
+  background-color: #323944;
+  color: #fff;
+  padding-left: 4%; }
+  .colophon a {
+    color: #fff; }
 
 /******************************************************************
 Site Name: Collectable	
