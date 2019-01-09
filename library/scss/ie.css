@@ -32,7 +32,7 @@ No one likes a mess.
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
+http://0to255.com/darken($gray, 75%);
 *********************/
 /*********************
 DEFAULT VALUES
@@ -345,7 +345,7 @@ nav {
           display: block;
           width: 180px;
           border-bottom: 1px solid #ccc;
-          color: #323944; }
+          color: #000000; }
         .nav li ul.sub-menu li:last-child a,
         .nav li ul.children li:last-child a {
           border-bottom: 0; }
@@ -397,12 +397,16 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-footer .footer-block {
-  width: 25%;
-  display: inline-block; }
+footer {
+  background-color: #424242;
+  padding-left: 4%; }
+  footer .footer-block {
+    color: #fff;
+    width: 25%;
+    display: inline-block; }
 
 .colophon {
-  background-color: #323944;
+  background-color: #000000;
   color: #fff;
   padding-left: 4%; }
   .colophon a {

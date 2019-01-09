@@ -14,7 +14,7 @@ No one likes a mess.
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
+http://0to255.com/darken($gray, 75%);
 *********************/
 
 $alert-yellow:      #ebe16f;
@@ -22,12 +22,12 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #323944;
+$black:             #000000;
 $white:             #fff;
 
 $light-gray:        #eeeeee;
 $gray:              #eaedf2;
-$dark-gray:         #888;
+$dark-gray:         #424242;
 $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
 $collectable-red:       #69090b;

@@ -12,6 +12,7 @@
 ?>
 
 	</div><!-- #content -->
+</div>
 
 	<footer>
 		<div> <!-- Footer Sidebars -->

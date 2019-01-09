@@ -452,7 +452,7 @@ No one likes a mess.
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
+http://0to255.com/darken($gray, 75%);
 *********************/
 /*********************
 DEFAULT VALUES
@@ -1378,7 +1378,7 @@ and more scalable.
 .nav {
   border-bottom: 0;
   margin: 0;
-  background: #323944;
+  background: #000000;
   border: 1px solid;
   border-color: #1f90bb #1f90bb #145e7a;
   border-radius: 5px;
@@ -1520,7 +1520,7 @@ POSTS & CONTENT STYLES
     max-width: 100%;
     height: auto; }
   .entry-content pre {
-    background: #323944;
+    background: #000000;
     color: #eeeeee;
     font-size: 0.9em;
     padding: 1.5em;
@@ -2017,7 +2017,7 @@ you can add resource intensive styles.
             display: block;
             width: 180px;
             border-bottom: 1px solid #ccc;
-            color: #323944; }
+            color: #000000; }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }
@@ -2069,12 +2069,16 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  footer .footer-block {
-    width: 25%;
-    display: inline-block; }
+  footer {
+    background-color: #424242;
+    padding-left: 4%; }
+    footer .footer-block {
+      color: #fff;
+      width: 25%;
+      display: inline-block; }
 
   .colophon {
-    background-color: #323944;
+    background-color: #000000;
     color: #fff;
     padding-left: 4%; }
     .colophon a {

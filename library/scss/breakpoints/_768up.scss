@@ -322,7 +322,11 @@ mobile. Make sure to double check these!
 */
 
 footer {
-	.footer-block{
+	background-color: $dark-gray;
+	padding-left: $content-margin;
+
+	.footer-block {
+		color: $white;
 		width: 25%;
 		display: inline-block;
 	}
