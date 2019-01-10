@@ -292,15 +292,23 @@ NAVIGATION STYLES
 *********************/
 nav {
   clear: both;
-  display: inline-block; }
+  /***display: inline-block;***/ }
   nav a {
     text-decoration: none;
     font-weight: bold; }
+    nav a i {
+      display: none; }
   nav .colophon_menu {
     float: left;
     clear: both; }
+  nav .social_menu {
+    clear: both;
+    display: inherit; }
   nav li {
     display: inline; }
+  nav i {
+    margin: 0;
+    padding: 0; }
 
 .nav {
   border: 0;
@@ -422,12 +430,16 @@ footer {
   background-color: #7dd667;
   color: #fff;
   padding-left: 4%;
-  text-align: center; }
+  text-align: center;
+  height: auto; }
 
 .copyright {
   display: inline;
   float: right;
   padding-right: 4%; }
+
+.menu-item i._mi {
+  margin: 4%; }
 
 /******************************************************************
 Site Name: Collectable	

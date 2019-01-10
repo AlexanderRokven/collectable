@@ -79,10 +79,14 @@ NAVIGATION STYLES
 *********************/
 nav {
 	clear: both;
-	display: inline-block;
+	/***display: inline-block;***/
 	a {
 		text-decoration: none;
 		font-weight: bold;
+
+		i {
+			display: none;
+		}
 	}
 
 	.colophon_menu {
@@ -90,9 +94,19 @@ nav {
 		clear: both;
 	}
 
+	.social_menu {
+		clear: both;
+		display: inherit;
+	}
+
 	li {
 		display: inline;
 
+	}
+
+	i {
+		margin: 0;
+		padding: 0;
 	}
 
 }
@@ -357,10 +371,14 @@ footer {
 	color: $white;
 	padding-left: $content-margin;
 	text-align: center;
+	height: auto;
 }
 
 .copyright {
 	display: inline;
 	float: right;
 	padding-right: $content-margin;
+}
+.menu-item i._mi {
+	margin: $content-margin;
 }
