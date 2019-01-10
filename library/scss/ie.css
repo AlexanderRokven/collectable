@@ -291,10 +291,16 @@ header {
 NAVIGATION STYLES
 *********************/
 nav {
-  clear: both; }
+  clear: both;
+  display: inline-block; }
   nav a {
     text-decoration: none;
     font-weight: bold; }
+  nav .colophon_menu {
+    float: left;
+    clear: both; }
+  nav li {
+    display: inline; }
 
 .nav {
   border: 0;
@@ -411,6 +417,17 @@ footer {
   padding-left: 4%; }
   .colophon a {
     color: #fff; }
+
+.social {
+  background-color: #7dd667;
+  color: #fff;
+  padding-left: 4%;
+  text-align: center; }
+
+.copyright {
+  display: inline;
+  float: right;
+  padding-right: 4%; }
 
 /******************************************************************
 Site Name: Collectable	

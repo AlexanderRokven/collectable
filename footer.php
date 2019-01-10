@@ -13,7 +13,16 @@
 
 	</div><!-- #content -->
 </div>
-
+	<div class="social">
+		<nav class="social_menu">
+			<?php
+				wp_nav_menu( array( 
+					'theme_location' => 'social_media',
+					'menu_id' => 'social_media',
+				) );
+			?>
+			</nav>
+	</div> <!-- /social -->
 	<footer>
 		<div> <!-- Footer Sidebars -->
 			<?php
@@ -30,23 +39,31 @@
 	      		endif;
 	      	?>
 	    </div> <!-- !Footer Sidebars -->
-	</footer><!-- #colophon -->
+	</footer>
 	</div>
 
 	<div class="colophon">
-		
-		<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'collectable' ) ); ?>">
+
+		<nav class="colophon-menu">
 			<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'collectable' ), 'WordPress' );
+				wp_nav_menu( array( 
+					'theme_location' => 'colophon_menu',
+					'menu_id' => 'colophon_menu',
+				) );
 			?>
-		</a>
-		<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'collectable' ), 'collectable', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
-		
+		</nav>
+
+		<div class="copyright">
+				<?php
+					/* translators: %s: CMS name, i.e. WordPress. */
+					printf( esc_html__( 'Website gerealiseerd door %s', 'collectable' ), '<a href="https://alexanderrokven.nl/">Alexander Rokven.</a>' );
+				?>
+			<span class="sep"> | </span>
+				<?php
+					/* translators: 1: Theme name, 2: Theme author. */
+					printf( esc_html__( 'Copyright © %s', 'collectable'), '2019' );
+				?>
+		</div>
 			
 	</div>
 

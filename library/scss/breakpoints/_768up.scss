@@ -79,10 +79,20 @@ NAVIGATION STYLES
 *********************/
 nav {
 	clear: both;
-	
+	display: inline-block;
 	a {
 		text-decoration: none;
 		font-weight: bold;
+	}
+
+	.colophon_menu {
+		float: left;
+		clear: both;
+	}
+
+	li {
+		display: inline;
+
 	}
 
 }
@@ -187,6 +197,7 @@ nav {
 	}  /* end current highlighters */
 
 } /* end .nav */
+
 
 /*********************
 SIDEBARS & ASIDES
@@ -337,7 +348,19 @@ footer {
 	color: $white;
 	padding-left: $content-margin;
 	a {
-		
 		color: $white;
 	}
+}
+
+.social {
+	background-color: $green;
+	color: $white;
+	padding-left: $content-margin;
+	text-align: center;
+}
+
+.copyright {
+	display: inline;
+	float: right;
+	padding-right: $content-margin;
 }

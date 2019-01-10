@@ -46,6 +46,7 @@ if ( ! function_exists( 'collectable_setup' ) ) :
 		register_nav_menus( array(
 			'primary_menu' => esc_html__( 'Primary', 'collectable' ),
 			'localisation_menu' => esc_html__('Localisation', 'collectable'),
+			'social_media' => esc_html__('Social Media', 'collectable'),
 		) );
 
 		/*

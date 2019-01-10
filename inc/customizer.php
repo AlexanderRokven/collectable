@@ -26,7 +26,6 @@ function collectable_customize_register( $wp_customize ) {
 		) );
 	}
 
-
 }
 add_action( 'customize_register', 'collectable_customize_register' );
 
@@ -55,8 +54,3 @@ function collectable_customize_preview_js() {
 	wp_enqueue_script( 'collectable-customizer', get_template_directory_uri() . '/library/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'collectable_customize_preview_js' );
-
-function mytheme_customize_register( $wp_customize ) {
-   //All our sections, settings, and controls will be added here
-}
-add_action( 'customize_register', 'mytheme_customize_register' );
